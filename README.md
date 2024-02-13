@@ -4,11 +4,15 @@ Use the alexnet program and modify it to the conditions given below. Use the dat
 MNIST already present in the pytorch. Instead of FashionMNIST it will be MNIST. Number of
 Classes in this dataset is 10. MNIST is a dataset to identify numbers, so the number of
 classes is 10. Make the batch size 16 and epoch should be 1 or 2.
+
+
 Layer1:
 1. Input will be 1 channel i.e grayscale images
 2. Apply 96 kernels, of kernel size 11, stride of 4 and padding of 0
 3. Apply activation function ReLU
 Layer2:
+
+
 1. Apply 96 kernels, kernel size 1
 2. Apply activation function ReLU
 Layer3:
